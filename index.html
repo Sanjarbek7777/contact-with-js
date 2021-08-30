@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contact</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div class="w-100 bg-dark p-4 mt-4">
+      <h1 class="text-white text-center">Contact book</h1>
+    </div>
+
+    <div class="container d-flex mt-5">
+      <form class="js-contact-form col-6 mt-5" action="https://echo.htmlacademy.ru">
+        <h2 class="mb-4">New contact form</h2>
+        <input class="js-contact-name-input form-control mb-3" type="text" name="name" aria-label="name" placeholder="Name" required>
+        <input class="js-contact-relation-input form-control mb-3" type="text" name="relationship" aria-label="relationship" placeholder="Relationship" required>
+        <input class="js-form-phone-input form-control mb-3" type="number" name="phone" aria-label="phone-number" placeholder="Phone" required>
+        <button class="js-form-submit-btn btn btn-primary form-control" type="submit">Add contact</button>
+      </form>
+
+      <div class="col-4 mt-5 ml-5">
+        <h2 class="mb-4">Contacts</h2>
+        <ul class="list-group list-unstyled">
+
+          <li class="js-contact-list list-group-item d-flex flex-column">
+            <h3 class="js-name-output list-group-item-name m-0 mb-2"></h3>
+            <span class="js-relation-output list-group-item-span mb-1"></span>
+            <a class="js-phone-output list-group-item-link stretched-link" href="tel:+998912030344"></a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  <script src="js/main.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
