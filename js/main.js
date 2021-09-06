@@ -21,7 +21,6 @@ if(form){
     var contactRelation = document.createElement('p');
     var contactNumber = document.createElement('a');
     var contact = {
-      id : null,
       name : null,
       relation : null,
       phone : null
@@ -31,7 +30,7 @@ if(form){
     contactRelation.textContent = inputRelation.value;
     contactNumber.textContent = inputPhone.value;
 
-    contact.id = id;
+
     contact.name = inputName.value;
     contact.relation = inputRelation.value;
     contact.phone = inputPhone.value;
