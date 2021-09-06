@@ -8,14 +8,12 @@ var inputPhone = document.querySelector('.js-form-phone-input');
 var contactsList = document.querySelector('.js-contact-list');
 
 var contactsArray = []
-var id = 0;
 
 if(form){
   form.addEventListener('submit', function(evt){
     evt.preventDefault();
 
 
-    id++;
     var contactItem = document.createElement('li');
     var contactName = document.createElement('h3');
     var contactRelation = document.createElement('p');
